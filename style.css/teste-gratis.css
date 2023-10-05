@@ -1,0 +1,70 @@
+
+body {
+
+    color: #000000;
+    font-size: 62.5%;
+    background: rgba(0, 191, 255, 0.4) url(../image/Salesforce.com_logo.svg.png) no-repeat center center;
+    height: 100vh;
+ }
+
+h1 {
+
+    width: 20%;
+    margin: 10px auto;
+    font-size: 2rem;
+    border-radius: 25px;
+    box-shadow: 10px 10px 10px;
+    text-align: center;
+    background-color: rgba(144, 202, 216, 0.664);
+    border: 5px ridge rgba(78, 110, 131, 0.836);
+}
+
+section > p, section.list {
+
+    font-weight: 450;
+    font-size: 1.4rem; 
+    text-align: center;
+    box-shadow: 7px 7px 7px;
+    background-color: #e1f3f7d3;
+    width: 60%;
+    margin: 20px auto;
+    border-radius: 50px;
+    border: 5px ridge rgb(255, 255, 255);
+    padding: 10px;
+
+}
+
+section.list {
+    width: 30%;
+}
+
+main > section.list > h2 {
+
+    box-shadow: 7px 7px 7px;
+    width: 90%;
+    margin: 40px auto;
+    border-radius: 20px;
+    border: 5px ridge rgba(78, 110, 131, 0.836);
+    
+}
+
+
+/* main > section.list > ul > div.ns {
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px ;
+    list-style-type: none ; 
+} */
+
+main > section.list > ul {
+
+    flex-wrap: wrap;
+    gap: 10px ;
+    list-style-type: none ;
+
+}
+
+
+
+
